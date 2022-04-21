@@ -15,6 +15,10 @@ export const Button = styled.button`
   border-radius: 10px;
   text-transform: capitalize;
   font-size: 20px;
-  font-weight: 600
+  font-weight: 600;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: -2px -2px 5px;
+  }
   cursor: pointer;
 `;
