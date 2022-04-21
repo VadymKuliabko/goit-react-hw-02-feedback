@@ -33,14 +33,14 @@ class App extends Component {
 
     return (
       <>
-        <Section title={'Please leave feedback'}>
+        <Section title="Please leave feedback">
           <FeedbackOptions
             options={options}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
 
-        <Section title={'Statistics'}>
+        <Section title="Statistics">
           {totalFeedback > 0 ? (
             <Statistics
               good={good}
